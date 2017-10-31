@@ -9,7 +9,7 @@ const faker = require("faker")
 module.exports.fetch = (event, context, callback) => {
   
   const TABLE_NAME = 'blo';
-  const NUM_OF_ITEM = 100;
+  const NUM_OF_ITEM = 10000;
   let dynamoDbDataService = new DynamoDbService(TABLE_NAME, NUM_OF_ITEM);
   
   

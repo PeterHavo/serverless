@@ -16,7 +16,7 @@ module.exports.fetch = (event, context, callback) => {
   }).then(response => callback(null, response))
   
   
- 
+ console.log('testing remote branch');
   
   
 

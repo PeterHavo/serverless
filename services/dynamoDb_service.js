@@ -12,7 +12,7 @@ module.exports = class DynamoDbService {
         let dynamoDBParams = {
             region: awsDefaultRegion
         };
-        console.log('configure AWS region')
+        console.log('configure AWS region.....')
         AWS.config.update(dynamoDBParams)
     }   
     
